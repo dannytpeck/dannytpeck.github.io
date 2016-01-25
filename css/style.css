@@ -1,0 +1,119 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.navbar-header {
+  padding-left: 10%;
+}
+
+.navbar-right {
+  padding-right: 10%;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 4.75em;
+  color: #BBAABB;
+  font-size: 5em;
+}
+
+h2 {
+  margin-top: .25em;
+  margin-bottom: .5em;
+  padding-bottom: .5em;
+  color: #999;
+  font-size: 2em;
+  border-bottom: 3px solid #775577;
+}
+
+nav {
+  margin-bottom: 0;
+}
+
+section {
+  height: 1000px;
+}
+
+#home {
+  text-align: center;
+  background: url("http://lorempixel.com/output/abstract-q-c-1920-1080-1.jpg");
+  background-attachment: fixed;
+}
+
+#about {
+  background: url("http://lorempixel.com/output/abstract-q-c-1920-1080-4.jpg");
+  background-attachment: fixed;
+}
+
+#portfolio {
+  background: url("http://lorempixel.com/output/abstract-q-c-1920-1080-6.jpg");
+  background-attachment: fixed;
+  color: #DDD;
+}
+
+#contact {
+  background: url("http://lorempixel.com/output/abstract-q-c-1920-1080-7.jpg");
+  background-attachment: fixed;
+}
+
+#social-buttons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#social-buttons li {
+  display: inline;
+}
+
+.btn-primary {
+  color: #999;
+  background-color: #333355;
+  border: none;
+}
+
+.btn-primary:hover {
+  color: #CCC;
+  background-color: #111133;
+}
+
+#about p {
+  font-size: 1.5em;
+  color: #000;
+  margin-top: 25%;
+}
+
+#about img {
+  position: absolute;
+  border-radius: 100%;
+  max-width: 300px;
+  margin-top: 20%;
+}
+
+#portfolio #projects {
+  padding: 9em 2.5%;
+}
+
+#contact p {
+  color: #BBAABB;
+  font-size: 3em;
+  padding: 3em;
+}
+
+#contact-buttons {
+  float: right;
+  list-style-type: none;
+}
+
+#contact-buttons li {
+  margin: 2em;
+}
+
+#contact a {
+  color: #999;
+}
+
+#contact a:hover {
+  text-decoration: none;
+  color: #775577;
+}
