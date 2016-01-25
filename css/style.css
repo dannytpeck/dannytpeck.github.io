@@ -12,7 +12,7 @@ body {
 
 h1 {
   margin: 0;
-  padding-top: 4.75em;
+  padding-top: 4em;
   color: #BBAABB;
   font-size: 5em;
 }
@@ -41,7 +41,7 @@ section {
 }
 
 #about {
-  background: url("http://lorempixel.com/output/abstract-q-c-1920-1080-4.jpg");
+  background: url("http://lorempixel.com/output/abstract-q-c-1920-1080-8.jpg");
   background-attachment: fixed;
 }
 
@@ -51,8 +51,13 @@ section {
   color: #DDD;
 }
 
+#portfolio img {
+  height: 240px;
+  width: 320px;
+}
+
 #contact {
-  background: url("http://lorempixel.com/output/abstract-q-c-1920-1080-7.jpg");
+  background: url("http://lorempixel.com/output/abstract-q-c-1920-1080-1.jpg");
   background-attachment: fixed;
 }
 

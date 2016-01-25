@@ -1,2 +1,2 @@
 # dannytpeck.github.io
-My github page
+This's my github page, where I store my web development portfolio!
