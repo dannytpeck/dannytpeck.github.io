@@ -36,17 +36,17 @@ section {
 
 #home {
   text-align: center;
-  background: url("images/abstract-q-c-1920-1080-1.jpg");
+  background: url("../images/abstract-q-c-1920-1080-1.jpg");
   background-attachment: fixed;
 }
 
 #about {
-  background: url("images/abstract-q-c-1920-1080-8.jpg");
+  background: url("../images/abstract-q-c-1920-1080-8.jpg");
   background-attachment: fixed;
 }
 
 #portfolio {
-  background: url("images/abstract-q-c-1920-1080-6.jpg");
+  background: url("../images/abstract-q-c-1920-1080-6.jpg");
   background-attachment: fixed;
   color: #DDD;
 }
@@ -57,7 +57,7 @@ section {
 }
 
 #contact {
-  background: url("images/abstract-q-c-1920-1080-1.jpg");
+  background: url("../images/abstract-q-c-1920-1080-1.jpg");
   background-attachment: fixed;
 }
 
