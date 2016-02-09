@@ -1,0 +1,49 @@
+body {
+  background: url("../img/wood_floor.jpg");
+}
+
+.calculator {
+  width: 300px;
+  margin: 150px auto;
+  padding: 10px 0px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #7BB336;
+  border: 5px solid #639B30;
+  box-shadow: 3px 3px darkgreen;
+}
+
+.output {
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.output input {
+  font-family: 'VT323', sans-serif;
+  height: 25px;
+  width: 150px;
+  font-size: 1.4em;
+  border-radius: 10px;
+  background-color: #8A8A8A;
+  border: none;
+  box-shadow: inset 3px 3px 10px #333;
+  padding-left: 20px;
+}
+
+button {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #7BB336;
+  color: white;
+  margin: 0px -2px;
+  height: 25px;
+  width: 40px;
+  border: none;
+}
+
+.on, .ce {
+  width: 50px;
+}
+
+.row-one, .row-two {
+  padding-left: 90px;
+}
