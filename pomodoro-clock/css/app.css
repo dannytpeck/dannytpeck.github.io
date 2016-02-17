@@ -1,0 +1,59 @@
+body {
+  background-color: #353535;
+  color: #DE7C79;
+  font-family: Lato, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  width: 250px;
+}
+
+button {
+  background-color: #DE7C79;
+  color: #353535;  
+  border-radius: 25px;
+  border: none;
+}
+
+#timer-wrapper {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#timer-wrapper li {
+  display: inline-block;
+}
+
+#timer-wrapper button {
+  position: relative;
+  bottom: .75em;
+  width: 30px;
+  height: 30px;
+  font-size: 1.5em;
+  line-height: 0.4;
+  margin: 0 .75em;
+}
+
+#timer {
+  font-size: 5rem;
+  border: 3px solid;
+  width: 250px;
+}
+
+#controls {
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+#start, #reset, #stop {
+  height: 40px;
+  width: 120px;
+  font-size: 1.25em;
+  margin: 0 .75em;
+}
