@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #003242;
+  font-family: sans-serif;
+}
+
+.title {
+  color: #F07444;
+  font-size: 2em;
+  text-align: center;
+  margin: .25em;
+}
+
+h1 {
+  font-size: 1.25em;
+}
+
+.wrapper {
+  margin: 0 10%;
+  max-width: 100%;
+  font-family: sans-serif;
+  font-size: .9em;
+  text-align: center;
+}
+.wrapper .search-form {
+  display: inline-block;
+}
+.wrapper .search-box {
+  border-radius: 2px;
+  height: 45px;
+  padding: 0 80px 0 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #F07444;
+  transition: .2s ease;
+}
+.wrapper .search-box:focus {
+  outline: none;
+}
+.wrapper .button {
+  display: inline-block;
+  border-radius: 2px;
+  height: 45px;
+  padding: 0 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  color: #F07444;
+  border: 1px solid #F07444;
+  transition: .2s ease;
+}
+.wrapper .button:hover {
+  background-color: #F07444;
+  color: #fff;
+  transition: .2s ease;
+}
+.wrapper .search-results {
+  text-align: left;
+}
+.wrapper .search-results a {
+  color: #ccc;
+  text-decoration: none;
+}
+.wrapper .search-results a .article {
+  background: #111;
+  padding: 5px 20px;
+  margin: 10px 0;
+  border: 1px solid #F07444;
+  transition: .2s ease;
+}
+.wrapper .search-results a .article:hover {
+  background-color: #F07444;
+  color: white;
+  transition: .2s ease;
+}
+
+.search-results {
+  /*  display: none;*/
+}

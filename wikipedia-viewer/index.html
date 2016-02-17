@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+
+    <h1 class="title">Wikipedia Viewer</h1>
+    <div class="wrapper" ng-app="wikiViewer" 
+                      ng-controller="searchController">
+      
+      <form ng-submit="search()" class="search-form">
+        <input class="search-box" type="text" ng-model="searchText">
+        <input class="button" type="submit" value="Search">
+      </form>
+      <a href="https://en.wikipedia.org/wiki/Special:Random"><button class="button">I don't know what I want</button></a>
+      
+      <div class="search-results">
+        <div ng-repeat="page in pages">
+          <a href="{{page.fullurl}}">
+            <div class="article">
+              <h1>{{page.title}}</h1>
+              <p>{{page.extract}}</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
