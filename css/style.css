@@ -65,7 +65,7 @@ header .logo {
 h1 {
   color: #40798C;
   margin: 0;
-  padding-top: 3em;
+  padding-top: 2.5em;
   font-size: 5em;
 }
 
@@ -91,15 +91,12 @@ h2 {
 
 #about {
   text-align: center;
+  padding: 6em 0 4em;
 }
 #about p {
   text-align: left;
   font-size: 1.5em;
   margin-top: 5%;
-}
-#about img {
-  max-width: 250px;
-  margin-top: 10em;
 }
 
 .project-tile img {
@@ -114,21 +111,45 @@ h2 {
 #contact {
   background-color: #35393B;
   text-align: center;
+  padding: 6em 0px 4em;
 }
-#contact p {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-  width: 100%;
-  color: #40798C;
-  font-size: 1.5em;
-  padding-top: 6em;
-  padding-bottom: 9em;
+
+#contact ul {
+  margin: 0px 0px 2em;
+}
+
+#contact .icons {
+  font-size: 1.25em;
+  cursor: default;
+  padding-left: 0px;
+  list-style: none;
+}
+
+#contact .icons li {
+  display: inline-block;
+  padding: 0px 1em 0px 0px;
+}
+
+#contact .icons li a:hover, #contact .icons li a:active, #contact .icons li a:focus {
+  text-decoration: none;
+}
+
+#contact .icons li a {
+  color: rgba(242, 239, 237, 0.7);
+}
+
+#contact .copyright {
+  color: rgba(242, 239, 237, 0.7);
+  font-size: 0.8em;
+  letter-spacing: 0.225em;
+  text-transform: uppercase;
+  list-style: none;
+  padding: 0px;
 }
 
 @media screen and (min-width: 53.75em) {
   header .logo {
     margin-left: 25px;
-    width: 8%;
   }
   header .desktop-navigation {
     display: block;
