@@ -102,10 +102,11 @@ h2 {
   margin-top: 10em;
 }
 
-#portfolio img {
+.project-tile img {
   height: 240px;
   width: 320px;
 }
+
 #portfolio #projects {
   padding: 66px 1em 1em 1em;
 }
