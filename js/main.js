@@ -46,3 +46,7 @@ $(document).ready(function() {
     });
   });
 });
+
+$(".nav-link a").on("click", function(e) {
+  $(".navigation-menu").slideToggle();
+});
