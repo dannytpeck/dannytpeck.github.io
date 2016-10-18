@@ -8,17 +8,27 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
+
     <header class="navigation">
-      <div>
-        <a class="logo" href="#home">Danny Peck</a>
-      </div>
-      <div>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+    	<div class="navigation-wrapper">
+        <a href="#home" class="logo">Danny Peck</a>
+        <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+        <nav class="desktop-navigation" role="navigation">
+          <ul class="desktop-navigation-menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <nav role="navigation">
+          <ul id="js-navigation-menu" class="navigation-menu">
+            <li class="nav-link"><a href="#about">About</a></li>
+            <li class="nav-link"><a href="#projects">Projects</a></li>
+            <li class="nav-link"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
 
@@ -26,15 +36,26 @@
       <h1>Danny Peck</h1>
       <h2>Front-end JavaScript Developer</h2>
 
-      <ul id="social-buttons">
+      <ul class="social-icons">
         <li>
-          <a href="https://twitter.com/dannytpeck/" target="_blank" class="btn btn-primary"><i class="fa fa-twitter"></i> Twitter</a>
+          <a href="https://twitter.com/dannytpeck" target="_blank">
+            <i class="fa fa-twitter fa-3x"></i>
+          </a>
         </li>
         <li>
-          <a href="https://github.com/dannytpeck/" target="_blank" class="btn btn-primary"><i class="fa fa-github"></i> Github</a>
+          <a href="https://github.com/dannytpeck" target="_blank">
+            <i class="fa fa-github fa-3x"></i>
+          </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/dannytpeck" target="_blank" class="btn btn-primary"><i class="fa fa-linkedin"></i> LinkedIn</a>
+          <a href="https://www.linkedin.com/in/dannytpeck" target="_blank">
+            <i class="fa fa-linkedin-square fa-3x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://codepen.io/dannytpeck/" target="_blank">
+            <i class="fa fa-codepen fa-3x"></i>
+          </a>
         </li>
       </ul>
 
@@ -42,22 +63,16 @@
 
     <section id="about">
       <div class="container">
-        <p class="col-md-7">
-          I'm a self-taught software developer based in Seattle. I am passionate about technology and where it is taking us!
-          <br><br>
-          Competencies:<br>
-          JavaScript, HTML5, CSS3, jQuery, Bootstrap3, AngularJS, Node.js
-        </p>
+        <p>I'm a self-taught software developer based in Seattle. I am passionate about technology and where it is taking us!</p>
+        <p>Skills: JavaScript, HTML5, CSS3, Node.js, React, Redux, jQuery</p>
         <img src="images/headshot.jpg" alt"a picture of me">
       </div>
-
     </section>
 
     <section id="projects">
-      <div class="container" id="projects-sub">
-        <div class="row">
+      <div class="container" id="projects">
 
-          <div class="col-md-4">
+          <div class="project-tile">
             <h3>Wikipedia Viewer</h3>
             <a href="wikipedia-viewer/">
               <img src="images/wikipedia-viewer.png">
@@ -65,7 +80,7 @@
             <p>AngularJS, Sass, Wikipedia API</p>
           </div>
 
-          <div class="col-md-4">
+          <div class="project-tile">
             <h3>Calculator App</h3>
             <a href="calculator/">
               <img src="images/javascript-calculator.png">
@@ -73,7 +88,7 @@
             <p>JavaScript, jQuery, Sass</p>
           </div>
 
-          <div class="col-md-4">
+          <div class="project-tile">
             <h3>Pomodoro Clock</h3>
             <a href="pomodoro-clock/">
               <img src="images/pomodoro-clock.png">
@@ -81,7 +96,7 @@
             <p>JavaScript, jQuery, CSS3</p>
           </div>
 
-          <div class="col-md-4">
+          <div class="project-tile">
             <h3>Local Weather App</h3>
             <a href="http://codepen.io/dannytpeck/full/YXdLPN/">
               <img src="https://raw.githubusercontent.com/dannytpeck/personal-portfolio/master/images/local-weather-app.png">
@@ -89,7 +104,7 @@
             <p>jQuery, OpenWeatherMap and IPinfo APIs</p>
           </div>
 
-          <div class="col-md-4">
+          <div class="project-tile">
             <h3>Quote Generator</h3>
             <a href="http://codepen.io/dannytpeck/full/zGyORW/">
               <img src="https://raw.githubusercontent.com/dannytpeck/personal-portfolio/master/images/quote-generator.png">
@@ -97,15 +112,13 @@
             <p>JavaScript, jQuery, CSS3</p>
           </div>
 
-          <div class="col-md-4">
+          <div class="project-tile">
             <h3>Camper News Viewer</h3>
             <a href="http://codepen.io/dannytpeck/full/KpjzGJ/">
               <img src="https://raw.githubusercontent.com/dannytpeck/personal-portfolio/master/images/camper-news-viewer.png">
             </a>
             <p>JavaScript, AngularJS, freeCodeCamp API</p>
           </div>
-
-        </div>
 
       </div>
     </section>
@@ -114,19 +127,7 @@
       <p>
         Open for collaboration or project work. Contact me anytime at <a href="mailto: dannytpeck@gmail.com">dannytpeck@gmail.com</a>
       </p>
-
-      <ul id="social-buttons">
-        <li>
-          <a href="https://twitter.com/dannytpeck/" target="_blank" class="btn btn-primary"><i class="fa fa-twitter"></i> Twitter</a>
-        </li>
-        <li>
-          <a href="https://github.com/dannytpeck/" target="_blank" class="btn btn-primary"><i class="fa fa-github"></i> Github</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/dannytpeck" target="_blank" class="btn btn-primary"><i class="fa fa-linkedin"></i> LinkedIn</a>
-        </li>
-      </ul>
-
     </section>
+
   </body>
 </html>
